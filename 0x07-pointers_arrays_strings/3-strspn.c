@@ -36,7 +36,6 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			break;
 		}
-		i++; /*add x+1*/
+
+i++; /*add x+1*/
 	}
-	return (count); /*return the value of count*/
-}
